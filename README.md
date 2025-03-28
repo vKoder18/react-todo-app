@@ -1,12 +1,69 @@
-# React + Vite
+📚 Advanced React To-Do Application with API Integration
+This is an advanced To-Do application built using React, Redux, and Vite with API integration, authentication, and priority-based task management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 Features
+✅ Add, View, and Delete Tasks
+✅ Task Prioritization (High, Medium, Low)
+✅ API Integration with OpenWeather API for outdoor tasks
+✅ User Authentication (Mock Login/Logout)
+✅ Persistent Data with Local Storage
+✅ Fully Responsive Design using Tailwind CSS
+✅ Error Handling for API requests
+✅ Tasks Sorted by Priority Automatically
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+Frontend: React, Redux, Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+State Management: Redux Toolkit
 
-## Expanding the ESLint configuration
+Styling: Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+API Integration: OpenWeather API
+
+Authentication: Redux for State Management
+
+Deployment: Vercel
+
+📸 Screenshots
+🎨 Home Page
+
+🔐 Login Page
+
+🚀 Getting Started
+Prerequisites
+Node.js installed (v18+ recommended)
+
+Git installed
+
+Basic knowledge of React and Redux
+
+📥 Installation and Setup
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/react-todo-app.git
+cd react-todo-app
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Add Environment Variables
+Create a .env file in the root directory and add:
+
+bash
+Copy
+Edit
+VITE_REACT_APP_WEATHER_API_KEY=your_openweather_api_key
+▶️ Run the Application
+bash
+Copy
+Edit
+npm run dev
+The app will be available at:
+👉 http://localhost:5173
+
+🌐 API Integration
+This application uses the OpenWeather API to fetch weather data for outdoor tasks.
+Get your API key from OpenWeather and add it to the .env file.
