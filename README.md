@@ -26,8 +26,10 @@ Deployment: Vercel
 
 📸 Screenshots
 🎨 Home Page
+![Screenshot 2025-03-28 145919](https://github.com/user-attachments/assets/94d96e05-219f-4628-9462-b708f9d40dfc)
 
 🔐 Login Page
+![Screenshot 2025-03-28 145852](https://github.com/user-attachments/assets/27970343-7057-4624-bc04-66550ec93e28)
 
 🚀 Getting Started
 Prerequisites
@@ -38,28 +40,19 @@ Git installed
 Basic knowledge of React and Redux
 
 📥 Installation and Setup
+
 1. Clone the Repository
-bash
-Copy
-Edit
 git clone https://github.com/your-username/react-todo-app.git
 cd react-todo-app
+
 2. Install Dependencies
-bash
-Copy
-Edit
 npm install
+
 3. Add Environment Variables
 Create a .env file in the root directory and add:
-
-bash
-Copy
-Edit
 VITE_REACT_APP_WEATHER_API_KEY=your_openweather_api_key
-▶️ Run the Application
-bash
-Copy
-Edit
+
+4.▶️ Run the Application
 npm run dev
 The app will be available at:
 👉 http://localhost:5173
