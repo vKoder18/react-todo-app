@@ -52,9 +52,11 @@ npm install
 Create a .env file in the root directory and add:
 VITE_REACT_APP_WEATHER_API_KEY=your_openweather_api_key
 
-4. Credentials to login:
- username : "admin"
- password : "password"
+4.🔐 Authentication Credentials
+For testing purposes, use these mock credentials:
+
+Username: admin
+Password: password
 
 5.▶️ Run the Application
 npm run dev
