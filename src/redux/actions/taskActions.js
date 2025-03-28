@@ -2,7 +2,7 @@ import { ADD_TASK, DELETE_TASK, SET_TASKS, SET_ERROR } from "../types";
 import axios from "axios";
 
 const API_URL = "https://api.openweathermap.org/data/2.5/weather";
-const API_KEY = "2c49c6eb369cffac934c764f3fa34e8d";
+const API_KEY = import.meta.env.VITE_REACT_APP_WEATHER_API_KEY;
 
 // Add Task with API integration
 export const addTask = (task) => async (dispatch) => {
